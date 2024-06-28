@@ -1,0 +1,92 @@
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .w-lg-2 {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .w-md-1 {
+    width: 100%;
+  }
+  .w-md-2 {
+    width: 50%;
+  }
+  header nav ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.264);
+    width: 100%;
+  }
+  header nav ul li {
+    margin: 8px 0;
+  }
+  header .toggle {
+    display: flex;
+  }
+  .about .about-content {
+    margin: 15px 0;
+  }
+  .case-study .case-study-title p {
+    width: 85%;
+  }
+  .news .news-item {
+    margin-top: 25px;
+  }
+  footer h5 {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .w-sm-1 {
+    width: 100%;
+  }
+  .w-sm-2 {
+    width: 50%;
+  }
+  .benner .benner-content {
+    margin-top: 170px;
+    margin-bottom: 15px;
+  }
+  .benner .benner-img {
+    width: 100%;
+    height: 520px;
+  }
+  .service .service-item {
+    margin-top: 15px;
+  }
+  .talk .talk-content {
+    flex-direction: column;
+  }
+  .talk .talk-content a {
+    margin-top: 20px;
+  }
+  .testimonials .testimonials-content {
+    padding: 0;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .w-sm-1 {
+    width: 100%;
+  }
+  header .contect-number {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=max.css.map */
